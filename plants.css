@@ -1,0 +1,82 @@
+.plants{
+    width: 80rem;
+    min-height: 60rem;
+    background-color: #aedba5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.plants_container{
+    background-color: white;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.05);
+}
+.plants_header{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+.plants_back{
+    color: #999;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.plants_back span{
+    margin-left: 1.15rem;
+}
+.plants_heart{
+    font-size: 1.50rem;
+}
+.plants_content{
+    display: flex;
+}
+.plants_content > div {
+    padding: 40px;
+}
+.plants_image{
+    width : 40%;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.plants_info{
+    width: 60%;
+    border-left: 2px solid #eee;
+}
+.plants_title{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+.plants_popular{
+    text-transform: uppercase;
+    color: #999;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+.plants_price{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+.plants_text{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #999;
+    margin-bottom: 2rem;
+}   
+.plants_button{
+    outline: none;
+    cursor: pointer;
+    color: #999;
+    text-transform: uppercase;
+    min-width: 15rem;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+}
+.plants_button:first-of-type {
+    margin-right: 1rem;
+}
